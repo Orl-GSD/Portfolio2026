@@ -1,15 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import projectsData from '../data/projects.json';
-import ProjectCard from './ProjectCard'; // Import the separated component
-import Image from 'next/image'; // Import Next.js Image component
+import ProjectCard from './ProjectCard';
+import Image from 'next/image';
 
 // --- Modal Component ---
-// (You could also separate this into a Modal.jsx file if you want!)
-// Make sure to pass `selectedProject` into the Modal now!
 const Modal = ({ isOpen, onClose, project }) => {
+  // Prevent background scrolling while modal is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isOpen]);
+
   if (!isOpen || !project) return null;
 
-  // We reuse your category colors for the accent text
+  // Category colors for the accent text
   const CATEGORY_COLORS = {
     "UI/UX & Development": "#66D9D5", 
     "Layout & Graphic Design": "#A875FF" 
@@ -49,7 +61,7 @@ const Modal = ({ isOpen, onClose, project }) => {
           {/* Close Button (Top Right) */}
           <button 
             onClick={onClose}
-            className="absolute top-6 right-6 text-[#888895] hover:text-white transition-colors text-xl font-bold"
+            className="absolute top-6 right-6 text-[#888895] hover:text-white transition-colors text-xl font-bold z-10"
           >
             ✕
           </button>
@@ -74,6 +86,7 @@ const Modal = ({ isOpen, onClose, project }) => {
             </div>
           </div>
 
+          {/* Project Banner Image */}
           <div className="relative w-full h-[250px] sm:h-[350px] md:h-[450px] bg-[#121215] border border-[#2A2A35] rounded-xl mb-10 overflow-hidden flex-shrink-0">
             {project.image ? (
               <Image 
@@ -81,11 +94,10 @@ const Modal = ({ isOpen, onClose, project }) => {
                 alt={project.title}
                 fill
                 priority
-                className="object-cover object-fit object-center"
+                className="object-cover object-center"
                 sizes="(max-width: 1000px) 100vw, 1000px"
               />
             ) : (
-              /* Fallback if an image path is missing */
               <div className="w-full h-full flex items-center justify-center text-[#555560] text-sm">
                 No Image Available
               </div>
@@ -169,7 +181,7 @@ const Modal = ({ isOpen, onClose, project }) => {
 // --- Main Board Component ---
 export default function ProjectList() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null); // Useful for displaying dynamic modal data later
+  const [selectedProject, setSelectedProject] = useState(null);
 
   const handleCardClick = (project) => {
     setSelectedProject(project);
@@ -184,19 +196,30 @@ export default function ProjectList() {
   return (
     <div className="p-10 min-h-screen font-sans">
       <div className="flex flex-col gap-5 max-w-[1200px] mx-auto">
-        {projectsData.map((project) => (
-          <ProjectCard 
-            key={project.id} 
-            project={project} 
-            onClick={() => handleCardClick(project)} 
-          />
+        {projectsData.map((project, index) => (
+          <motion.div
+            key={project.id}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{
+              duration: 0.6,
+              delay: index * 0.15, // Staggers each project card as you scroll
+              ease: [0.25, 0.1, 0.25, 1.0]
+            }}
+          >
+            <ProjectCard 
+              project={project} 
+              onClick={() => handleCardClick(project)} 
+            />
+          </motion.div>
         ))}
       </div>
 
       <Modal 
         isOpen={isModalOpen} 
         onClose={closeModal} 
-        project={selectedProject} // <-- Ensure this is here!
+        project={selectedProject} 
       />
     </div>
   );

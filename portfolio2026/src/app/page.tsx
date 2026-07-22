@@ -8,6 +8,7 @@ import ProjectList from './components/ProjectList.jsx'
 import Profile from "./components/Profile.jsx";
 import Footer from "./components/Footer.jsx";
 import NotchedPanel from "./components/NotchedPanel.jsx";
+import ScrollReveal from "./components/ScrollReveal.jsx";
 
 export default function Home() {
   return (
@@ -62,27 +63,30 @@ export default function Home() {
 
       </div>
 
-      {/* <NotchedPanel /> */}
-
     </div>
 
-      {/* Works Section */}
-      <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center py-24'>
-        <SectionHeader header="Works" description="Look into my showcase of recent projects!" />
-        
-        <div className="w-full px-36">
-          <ProjectList />
+      <ScrollReveal yOffset={60} duration={0.8}>
+        {/* Works Section */}
+        <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center py-24'>
+          <SectionHeader header="Works" description="Look into my showcase of recent projects!" />
+          
+          <div className="w-full px-36">
+            <ProjectList />
+          </div>
         </div>
-      </div>
+      </ScrollReveal>
 
-      {/* Profile Section */}
-      <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center pt-16'>
-        <SectionHeader header="Profile" description="Look into my skills and work experience!" />
-      </div>
 
-      <div className="w-full px-36">
-        <Profile />
-      </div>
+      <ScrollReveal yOffset={60} duration={0.8}>
+        {/* Profile Section */}
+        <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center pt-16'>
+          <SectionHeader header="Profile" description="Look into my skills and work experience!" />
+        </div>
+
+        <div className="w-full px-36">
+          <Profile />
+        </div>
+      </ScrollReveal>
 
       {/* Footer Section */}
       <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center pt-16'>
