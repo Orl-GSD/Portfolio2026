@@ -46,18 +46,18 @@ export default function Home() {
       </div>
 
       {/* 3. Hero Content Container */}
-      <div className="relative z-10 w-full min-h-screen text-white flex flex-col items-start justify-center px-6 sm:px-12 md:px-20 lg:px-32 xl:px-48 py-20 space-y-6 md:space-y-8">
+      <div className="relative z-10 w-full min-h-screen text-white flex flex-col items-center justify-center px-6 sm:px-12 md:px-20 lg:px-32 xl:px-48 py-16 sm:py-20 space-y-5 sm:space-y-6 md:space-y-8">
         
         {/* Open To Work Badge */}
         <OpenToWork />
 
-        {/* Main Heading */}
-        <h1 className="font-eternalo text-6xl sm:text-8xl md:text-[120px] lg:text-[150px] xl:text-[184px] leading-[0.9] md:leading-[0.85] tracking-tight">
-          EARL <br /> DICIPULO
+        {/* Main Heading - Highly Responsive Font Size */}
+        <h1 className="font-eternalo text-center text-9xl xs:text-5xl sm:text-8xl md:text-[110px] lg:text-[140px] xl:text-[184px] leading-[0.88] md:leading-[0.85] tracking-tight">
+          EARL DICIPULO
         </h1>
 
         {/* Subtitle / Bio */}
-        <p className="font-dm font-extralight text-base sm:text-lg md:text-xl lg:text-[24px] leading-relaxed w-full max-w-[660px] text-gray-300">
+        <p className="font-dm font-extralight text-center text-lg sm:text-lg md:text-xl lg:text-[24px] leading-relaxed w-full max-w-[660px] text-gray-300">
           A layout designer, UI/UX designer, and frontend developer with a passion for crafting visually compelling and user-centered websites and interfaces using modern design tools and frameworks.
         </p>
 
@@ -70,7 +70,7 @@ export default function Home() {
         <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center py-24'>
           <SectionHeader header="Works" description="Look into my showcase of recent projects!" />
           
-          <div className="w-full px-36">
+          <div className="w-full px-10 lg:px-36">
             <ProjectList />
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
           <SectionHeader header="Profile" description="Look into my skills and work experience!" />
         </div>
 
-        <div className="w-full px-36">
+        <div className="w-full px-10 lg:px-36">
           <Profile />
         </div>
       </ScrollReveal>
