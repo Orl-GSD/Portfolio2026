@@ -1,0 +1,43 @@
+{
+  "hardSkills": [
+    "Figma",
+    "Wireframing",
+    "Prototyping",
+    "React.js",
+    "Tailwind",
+    "Photoshop",
+    "Illustrator",
+    "InDesign",
+    "Krita",
+    "Canva"
+  ],
+  "softSkills": [
+    "Creativity",
+    "Critical Thinking",
+    "Collaboration",
+    "Empathy",
+    "Problem Solving"
+  ],
+  "experience": [
+    {
+      "title": "UI/UX Design Intern",
+      "organization": "WebForest Digital Solutions",
+      "dateRange": "May 2025 - Jun 2025"
+    },
+    {
+      "title": "UI/UX Designer",
+      "organization": "SAMAHAN Systems Development, AdDU",
+      "dateRange": "Feb 2025 - Jun 2026"
+    },
+    {
+      "title": "Art Editor for Web",
+      "organization": "Atenews, AdDU",
+      "dateRange": "Jul 2025 - Jun 2026"
+    },
+    {
+      "title": "UI/UX Designer & Frontend Developer",
+      "organization": "LIKHA Design + Build",
+      "dateRange": "May 2025 - June 2025"
+    }
+  ]
+}
