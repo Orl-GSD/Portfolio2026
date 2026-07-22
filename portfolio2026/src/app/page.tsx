@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* Works Section */}
       <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center py-24'>
-        <SectionHeader header="Works" description="A showcase of my recent projects and accomplishments." />
+        <SectionHeader header="Works" description="Look into my showcase of recent projects!" />
         
         <div className="w-full px-36">
           <ProjectList />
@@ -77,7 +77,7 @@ export default function Home() {
 
       {/* Profile Section */}
       <div className='w-full h-full bg-[#07080D] flex flex-col items-center justify-center pt-16'>
-        <SectionHeader header="Profile" description="A brief overview of my background, skills, and experiences." />
+        <SectionHeader header="Profile" description="Look into my skills and work experience!" />
       </div>
 
       <div className="w-full px-36">

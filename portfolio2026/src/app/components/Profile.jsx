@@ -59,8 +59,8 @@ export default function ProfileBoard() {
           <h1 className="text-white text-5xl md:text-6xl font-dm-serif font-bold mb-4">
             Earl Geibriel Dicipulo
           </h1>
-          <p className="text-lg md:text-xl mb-10 font-light">
-            [Section Description Here]
+          <p className="text-lg md:text-xl mb-10 font-light font-dm">
+            I am a BS Computer Science fresh graduate and a creatives enthusiast who aspires to be a UI/UX designer, a frontend developer, and a layout & graphic artist.
           </p>
 
           {/* Primary Tags */}
@@ -72,8 +72,6 @@ export default function ProfileBoard() {
               <span className="border border-[#66D9D5] text-[#66D9D5] bg-[#0B1014] px-6 py-2 rounded-sm text-sm md:text-base">
                 Frontend Development
               </span>
-            </div>
-            <div className="flex">
               <span className="border border-[#A875FF] text-[#A875FF] bg-[#0D0B14] px-6 py-2 rounded-sm text-sm md:text-base">
                 Layout & Graphic Design
               </span>
