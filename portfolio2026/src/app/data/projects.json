@@ -9,8 +9,8 @@
     "projectType": "Student Publication",
     "projectDate": "2026",
     "status": "Completed",
-    "image": "/./images/ElectionsWatch2026_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum.",
+    "image": "/images/ElectionsWatch2026_Preview.png",
+    "description": "Elections Watch 2026 is a website created for Atenews, the Official Student Publication of Ateneo de Davao University, that covers the profiles and platforms of candidates running for the SAMAHAN Central Board Elections 2026. The website helps students stay informed about the candidates running for each position, helping them shape their decision when choosing the right vote. In this project, I led the team in designing the interfaces and developing the website's functionality before the deadline, which we met after 2-3 weeks of development, while ensuring information accuracy and responsiveness.",
     "link": "https://elections-watch-2026.atenews.ph"
   },
   {
@@ -23,8 +23,8 @@
     "projectType": "School Organization",
     "projectDate": 2025,
     "status": "Completed",
-    "image": "/./images/ADTO_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum.",
+    "image": "/images/ADTO_Preview.png",
+    "description": "ADTO is a ticketing and events management system website created for the SAMAHAN, which is intended for student organizations to create and manage their events, and students to browse for upcoming and ongoing events from various student organizations. In this project, I led the UI/UX design team to ensure that the team's designs were high-quality, easy for developers to recreate, and aligned with user flows, the branding kit, and the client's requests.",
     "link": "https://samahan.addu.edu.ph/adto"
   },
   {
@@ -37,8 +37,8 @@
     "projectType": "Student Publication",
     "projectDate": "2025",
     "status": "Ongoing",
-    "image": "/./images/BanaagDiwa2025_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum."
+    "image": "/images/BanaagDiwa2025_Preview.png",
+    "description": "Banaag Diwa '25 is the official literary folio of Atenews, the Official Student Publication of Ateneo de Davao University, featuring literary pieces by bona fide Ateneo de Davao University students, faculty, and staff, ranging from poetry to creative nonfiction. Originally, this is a physical release, but we also opted to create a digital version of Banaag Diwa '23 by making an interactive website of it intended for archival purposes and for the viewers to see all the submitted literary outputs if they were not able to get a physical copy of it."
   },
   {
     "id": 4,
@@ -50,8 +50,8 @@
     "projectType": "Academic",
     "projectDate": "2025",
     "status": "Completed",
-    "image": "/./images/Likha_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum."
+    "image": "/images/Likha_Preview.png",
+    "description": "Please note that this is an academic project for our Software Engineering professional course, in which we seek companies to which we can provide digital solutions by building systems. LIKHA Design + Build was struggling to manage multiple tasks and accurately track material quantities across various projects. As a solution, we built a project management and materials monitoring system, in which each project has its own set of tasks that can be organized by assigning deadlines and statuses (automatically updated) to indicate which are complete or overdue. Moreover, they can add and update materials for each project to maintain an accurate inventory report of which materials were used or stocked."
   },
   {
     "id": 5,
@@ -63,8 +63,8 @@
     "projectType": "TED Talk Event",
     "projectDate": "2025",
     "status": "Completed",
-    "image": "/./images/TEDxLA_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum."
+    "image": "/images/TEDxLA_Preview.png",
+    "description": "TEDxLanang Avenue is a TEDx event held at SM Lanang that features various speakers, such as Kublai Millan, Chelsea Manalo, and Maan Chua, who talk about topics of their choice. With the position of the Deputy Creative Director, I created various designs for social media postings and dressings while cross-checking my own works and the works of other creative members to ensure that their outputs are in line with the provided branding kit, the design principles are applied professionally and neatly, and the images and texts are accurate. Moreover, I was given the opportunity to communicate with the speakers to ensure their presentations for the event were good enough and aligned with the rules and standards of a TED Talk."
   },
   {
     "id": 6,
@@ -76,8 +76,8 @@
     "projectType": "Student Publication",
     "projectDate": "2025",
     "status": "Completed",
-    "image": "/./images/AtenewsReleases_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum."
+    "image": "/images/AtenewsReleases_Preview.png",
+    "description": "Atenews, the Official Student Publication of Ateneo de Davao University, produces numerous physical editions per school year, including tabloids and folios distributed to the student body. As the Art Editor for Layout & Graphic Design, I guided my head layout artists on each release, showing them how to design multi-page layouts while strictly checking for errors and redundant elements that needed to be removed or modified to ensure a good release. In my Atenews journey, I designed 4 releases and managed 5 releases."
   },
   {
     "id": 7,
@@ -89,7 +89,7 @@
     "projectType": "Student Publication",
     "projectDate": "2025",
     "status": "Completed",
-    "image": "/./images/AtenewsCreatives_Preview.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit elit nec sem varius, a ultricies lorem malesuada. In a sem ut turpis aliquet tempus sed vel arcu. Nullam augue ligula, convallis eu elit vitae, tincidunt finibus dui. Nam diam tortor, rhoncus eu egestas nec, malesuada sed purus. Vivamus elementum, dolor at ornare pharetra, sem ex lacinia enim, a aliquam erat ligula scelerisque ex. Quisque pellentesque pharetra odio et placerat. Morbi sit amet feugiat purus. Ut quis ultrices felis. Sed molestie sapien in leo sollicitudin sollicitudin. Suspendisse eget erat ac ante sagittis consectetur a semper sapien. Vestibulum aliquam nibh id enim congue, vitae vestibulum elit bibendum."
+    "image": "/images/AtenewsCreatives_Preview.png",
+    "description": "Atenews, the Official Student Publication of Ateneo de Davao University, produces a wide range of social media materials and illustrations for the various departments of the student publication. As the Art Editor for Layout & Graphic Design and the Art Editor for Cartoon, I delegate many tasks to my members, ranging from designing holiday pubmats to illustrating article headers for the literary and features department. While I am also capable of designing and illustrating different visual materials using Photoshop, InDesign, Illustrator, Canva, and Krita, I also provide thorough constructive criticism on my members' outputs to ensure the quality is up to the Atenews standards while providing suggestions and tips so that they can improve from their mistakes and learn different techniques to produce a good output."
   }
 ]

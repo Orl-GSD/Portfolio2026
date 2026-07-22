@@ -36,8 +36,8 @@ export default function ProfileBoard() {
   ];
 
   const hardSkills = [
-    "Figma", "Wireframing", "Prototyping", "React.js", 
-    "Tailwind", "Photoshop", "Illustrator", "InDesign", 
+    "Figma", "Wireframing", "Prototyping", "React", 
+    "Tailwind", "TypeScript", "Photoshop", "Illustrator", "InDesign", 
     "Krita", "Canva"
   ];
 

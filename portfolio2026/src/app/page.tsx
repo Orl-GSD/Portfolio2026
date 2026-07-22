@@ -57,7 +57,7 @@ export default function Home() {
 
         {/* Subtitle / Bio */}
         <p className="font-dm font-extralight text-base sm:text-lg md:text-xl lg:text-[24px] leading-relaxed w-full max-w-[660px] text-gray-300">
-          A layout designer, UI/UX designer, and frontend developer with a passion for crafting visually compelling and user-centered websites and interfaces and experience in utilizing modern design tools and frameworks.
+          A layout designer, UI/UX designer, and frontend developer with a passion for crafting visually compelling and user-centered websites and interfaces using modern design tools and frameworks.
         </p>
 
       </div>
